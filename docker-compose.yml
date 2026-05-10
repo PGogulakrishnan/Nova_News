@@ -1,0 +1,10 @@
+services:
+  nova-news:
+    build:
+      context: .
+      args:
+        # Passes the environment variable from your host or .env file to the build context
+        - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+    ports:
+      - "8081:80"
+    restart: unless-stopped
