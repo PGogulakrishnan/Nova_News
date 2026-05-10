@@ -1,0 +1,6 @@
+{
+  "name": "Nova News",
+  "description": "A sophisticated, AI-powered news aggregator with bento-style layout and real-time summaries.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["AI Summarization", "Bento Layout", "Search"]
+}
